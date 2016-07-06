@@ -1,0 +1,21 @@
+Source: click
+Section: python
+Priority: optional
+Maintainer: Jean-Louis Fuchs - Adfinis-SyGroup <jean-louis.fuchs@adfinis-sygroup.ch>
+Uploaders: Jean-Louis Fuchs - Adfinis-SyGroup <jean-louis.fuchs@adfinis-sygroup.ch>
+Build-Depends: debhelper (>= 9), dh-python, python-all, python3-all,
+ python-setuptools, python3-setuptools
+Standards-Version: 3.9.4
+Homepage: http://click.pocoo.org/
+Vcs-Git: https://github.com/pallets/click
+Vcs-Browser: https://github.com/pallets/click
+
+Package: python-click
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources
+Description: Python composable command line utility
+
+Package: python3-click
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-pkg-resources
+Description: Python composable command line utility

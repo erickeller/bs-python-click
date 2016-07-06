@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export PYBUILD_DESTDIR_python2=debian/python-click/
+export PYBUILD_DESTDIR_python3=debian/python3-click/
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
