@@ -1,1 +1,1 @@
-from click import __version__
+__version__ = "6.6"
